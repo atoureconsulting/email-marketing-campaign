@@ -1,0 +1,17 @@
+{
+  "name": "atoure-crm-email-campaign",
+  "version": "1.0.0",
+  "description": "AI-personalised brand outreach campaign pulling from AToure CRM, sent via IONOS SMTP",
+  "scripts": {
+    "send": "node send-campaign.js",
+    "dry-run": "node send-campaign.js --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
